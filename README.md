@@ -15,7 +15,7 @@ The tool would turn it (logically) into:
 
 To compress the file file.txt into a -smaller- file.z:
 
-> \> ./wzip file.txt > file.z
+> promt> ./wzip file.txt > file.z
 
 ## Details
 - Taking number of arguments from user.
