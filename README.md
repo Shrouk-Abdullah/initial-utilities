@@ -7,6 +7,7 @@ The type of compression used here is a simple form of compression called run-len
 
 If we had a file with the following contents:
 >aabbbbccc
+
 The tool would turn it (logically) into:
 >2a3b3c
 
