@@ -20,7 +20,7 @@ To compress the file file.txt into a -smaller- file.z:
 - Taking number of arguments from user.
 - Compare it and the result of the comparison depends on what will happen next .
 - The number of repetitions of a particular letter will be recorded in the >COUNT variable .
-- The -COUNT and - array sent to > writeFile  to out the the count of every letter.
+- The `COUNT` and - array sent to > writeFile  to out the the count of every letter.
 
 
 
