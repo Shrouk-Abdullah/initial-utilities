@@ -7,7 +7,6 @@ The type of compression used here is a simple form of compression called run-len
 If we had a file with the following contents:
 
 >abbbbccc
-
 The tool would turn it (logically) into:
 
 >2a3b3c
@@ -19,8 +18,8 @@ To compress the file file.txt into a -smaller- file.z:
 ## Details
 - Taking number of arguments from user.
 - Compare it and the result of the comparison depends on what will happen next .
-- The number of repetitions of a particular letter will be recorded in the >COUNT variable .
-- The `COUNT` and - array sent to > writeFile  to out the the count of every letter.
+- The number of repetitions of a particular letter will be recorded in the `COUNT` variable .
+- The `COUNT` and `array` sent to `writeFile`  to out the the count of every letter.
 
 
 
