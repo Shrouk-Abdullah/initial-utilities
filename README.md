@@ -6,13 +6,15 @@ It's the one of utilities in UNIX system.
 The type of compression used here is a simple form of compression called run-length encoding (RLE). RLE is quite simple: when you encounter n characters of the same type in a row, the compression tool (wzip) will turn that into the number n and a single instance of the character.
 
 If we had a file with the following contents:
->####aabbbbccc
+>abbbbccc
 
 The tool would turn it (logically) into:
->####2a3b3c
+>2a3b3c
 
 To compress the file file.txt into a -smaller- file.z:
-> \> ####./wzip ####file.txt ####> ####file.z
+> \> ./wzip file.txt > file.z
+
+first we take number of arguments from user and compare it and the result of the comparison depends on what will happen next and  the number of repetitions of a particular letter will be recorded in the COUNT variable after that the COUNT and array to out the the count of every letter.
 
 
 
