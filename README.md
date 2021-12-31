@@ -6,7 +6,8 @@ The type of compression used here is a simple form of compression called run-len
 
 ## Syntax 
 
->./wzip file.txt > file.z
+To compress the file file.txt into a -smaller- file.z:
+>promt>./wzip file.txt > file.z
 
 ## example
 
@@ -15,8 +16,6 @@ The type of compression used here is a simple form of compression called run-len
 It turn it into:
 
 >2a3b3c
-
-To compress the file file.txt into a -smaller- file.z:
 
 
 ## Details
