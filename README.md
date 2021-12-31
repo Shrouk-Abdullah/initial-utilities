@@ -14,7 +14,11 @@ The tool would turn it (logically) into:
 To compress the file file.txt into a -smaller- file.z:
 > \> ./wzip file.txt > file.z
 
-first we take number of arguments from user and compare it and the result of the comparison depends on what will happen next and  the number of repetitions of a particular letter will be recorded in the COUNT variable after that the COUNT and array to out the the count of every letter.
+##Details
+- Taking number of arguments from user.
+- Compare it and the result of the comparison depends on what will happen next .
+- The number of repetitions of a particular letter will be recorded in the >COUNT variable .
+- The > COUNT and > array sent to > writeFile  to out the the count of every letter.
 
 
 
