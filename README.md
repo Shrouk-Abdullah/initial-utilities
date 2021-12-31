@@ -9,7 +9,7 @@ The type of compression used here is a simple form of compression called run-len
 To compress the file file.txt into a -smaller- file.z:
 >promt>./wzip file.txt > file.z
 
-## example
+## Example
 
 `abbbbccc`
 
@@ -18,7 +18,8 @@ It turn it into:
 >2a3b3c
 
 
-## Details
+## Details:
+
 - Taking number of arguments from user.
 - Compare it and the result of the comparison depends on what will happen next .
 - The number of repetitions of a particular letter will be recorded in the `COUNT` variable .
