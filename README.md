@@ -11,5 +11,9 @@ If we had a file with the following contents:
 The tool would turn it (logically) into:
 >2a3b3c
 
+To compress the file file.txt into a -smaller- file.z:
+> ./wzip file.txt > file.z
+
+
 
 
